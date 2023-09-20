@@ -1,0 +1,19 @@
+.bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.thelionyard.co.uk/wp-content/uploads/2023/05/de5f3a35e2270002b6395d8a7e68f6b4.jpg');
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(45%);
+}
